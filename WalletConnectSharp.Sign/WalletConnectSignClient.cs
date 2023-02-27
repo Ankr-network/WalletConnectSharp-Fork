@@ -301,6 +301,29 @@ namespace WalletConnectSharp.Sign
             return Engine.Extend(topic);
         }
 
+	    /// <summary>
+	    /// Send a request to the session in the given topic with the request data T. You may (optionally) specify
+	    /// a chainId the request should be performed in. This function will await a response of type TR from the session.
+	    ///
+	    /// If no response is ever received, then a Timeout exception may be thrown.
+	    ///
+	    /// The type T MUST define the RpcMethodAttribute to tell the SDK what JSON RPC method to use for the given
+	    /// type T.
+	    /// Either type T or TR MUST define a RpcRequestOptions and RpcResponseOptions attribute to tell the SDK
+	    /// what options to use for the Request / Response.
+	    /// </summary>
+	    /// <param name="topic">The topic of the session to send the request in</param>
+	    /// <param name="data">The data of the request</param>
+	    /// <param name="method">The custom JSON-RPC method specified by the client</param>
+	    /// <param name="chainId">An (optional) chainId the request should be performed in</param>
+	    /// <typeparam name="T">The type of the request data. MUST define the RpcMethodAttribute</typeparam>
+	    /// <typeparam name="TR">The type of the response data.</typeparam>
+	    /// <returns>The response data as type TR</returns>
+	    public Task<TR> RequestWithMethod<T, TR>(string topic, T data, string method, string chainId = null)
+	    {
+		    return Engine.RequestWithMethod<T, TR>(topic, data, method, chainId);
+	    }
+
         /// <summary>
         /// Send a request to the session in the given topic with the request data T. You may (optionally) specify
         /// a chainId the request should be performed in. This function will await a response of type TR from the session.

@@ -269,7 +269,7 @@ namespace WalletConnectSharp.Core.Controllers
         public async Task<long> SendRequest<T, TR>(string topic, T parameters)
         {
             var method = RpcMethodAttribute.MethodForType<T>();
-
+ 
             var payload = new JsonRpcRequest<T>(method, parameters);
 
             var message = await this.Core.Crypto.Encode(topic, payload);
