@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageVersion>2.0.0-rc.1</PackageVersion>
+        <AssemblyVersion>2.0.0</AssemblyVersion>
+        <FileVersion>2.0.0</FileVersion>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>WalletConnectSharp.Network.Websocket</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WalletConnectSharp2.Network\WalletConnectSharp2.Network.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Websocket.Client" Version="4.4.43" />
+    </ItemGroup>
+
+</Project>

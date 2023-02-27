@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageVersion>2.0.0-rc.1</PackageVersion>
+        <AssemblyVersion>2.0.0</AssemblyVersion>
+        <FileVersion>2.0.0</FileVersion>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>WalletConnectSharp.Network</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WalletConnectSharp2.Events\WalletConnectSharp2.Events.csproj" />
+    </ItemGroup>
+
+</Project>

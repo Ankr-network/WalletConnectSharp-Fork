@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageVersion>2.0.0-rc.1</PackageVersion>
+        <AssemblyVersion>2.0.0</AssemblyVersion>
+        <FileVersion>2.0.0</FileVersion>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>WalletConnectSharp.Crypto</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WalletConnectSharp2.Common\WalletConnectSharp2.Common.csproj" />
+      <ProjectReference Include="..\WalletConnectSharp2.Network\WalletConnectSharp2.Network.csproj" />
+      <ProjectReference Include="..\WalletConnectSharp2.Storage\WalletConnectSharp2.Storage.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.25.1" />
+    </ItemGroup>
+
+</Project>
