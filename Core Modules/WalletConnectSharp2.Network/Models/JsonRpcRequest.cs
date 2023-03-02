@@ -1,3 +1,4 @@
+using System.Reflection;
 using Newtonsoft.Json;
 using WalletConnectSharp.Events.Utils;
 
@@ -59,6 +60,14 @@ namespace WalletConnectSharp.Network.Models
             this.Method = method;
             this.Params = param;
             this.Id = (long)id;
+	        TrySetIdToDataObject(this.Id, param);
         }
+
+	    private void TrySetIdToDataObject(long id, T data)
+	    {
+		    var dataType = data.GetType();
+		    var idField = dataType.GetPrivateFieldInfo("id");
+		    idField?.SetValue(data, id);
+	    }
     }
 }

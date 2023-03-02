@@ -89,9 +89,9 @@ namespace WalletConnectSharp.Network.Models
 			    
 		    errorObj ??= Activator.CreateInstance(errorObjType);
 
-		    var codeField = errorObjType.GetField("code", BindingFlags.Instance | BindingFlags.NonPublic);
-		    var messageField = errorObjType.GetField("message", BindingFlags.Instance | BindingFlags.NonPublic);
-
+		    FieldInfo codeField = errorObjType.GetPrivateFieldInfo("code");
+		    FieldInfo messageField = errorObjType.GetPrivateFieldInfo("message");
+		    
 		    codeField?.SetValue(errorObj, error.Code);
 		    messageField?.SetValue(errorObj, error.Message);
 	    }
