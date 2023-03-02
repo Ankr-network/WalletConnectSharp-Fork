@@ -544,9 +544,14 @@ namespace WalletConnectSharp.Sign
 			    .OnResponse += args =>
 		    {
 			    if (args.Response.IsError)
+			    {
+				    
 				    taskSource.SetException(args.Response.Error.ToException());
+			    }
 			    else
+			    {
 				    taskSource.SetResult(args.Response.Result);
+			    }
 
 			    return Task.CompletedTask;
 		    };

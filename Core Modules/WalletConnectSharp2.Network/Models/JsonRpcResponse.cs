@@ -1,3 +1,4 @@
+using System.Reflection;
 using Newtonsoft.Json;
 
 namespace WalletConnectSharp.Network.Models
@@ -69,6 +70,30 @@ namespace WalletConnectSharp.Network.Models
             Id = id;
             Error = error;
             Result = result;
+	        
+	        TryCopyErrorDataToResult(error, result);
         }
+
+	    private void TryCopyErrorDataToResult(ErrorResponse error, T result)
+	    {
+		    var resultType = result.GetType();
+		    var errorProperty = resultType.GetProperty("Error");
+
+		    if (errorProperty == null)
+		    {
+			    return;
+		    }
+
+		    var errorObj = errorProperty.GetValue(result);
+		    var errorObjType = errorProperty.PropertyType;
+			    
+		    errorObj ??= Activator.CreateInstance(errorObjType);
+
+		    var codeField = errorObjType.GetField("code", BindingFlags.Instance | BindingFlags.NonPublic);
+		    var messageField = errorObjType.GetField("message", BindingFlags.Instance | BindingFlags.NonPublic);
+
+		    codeField?.SetValue(errorObj, error.Code);
+		    messageField?.SetValue(errorObj, error.Message);
+	    }
     }
 }
