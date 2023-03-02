@@ -101,7 +101,7 @@ namespace WalletConnectSharp.Sign
             MessageHandler.HandleMessageType<SessionSettle, bool>(PrivateThis.OnSessionSettleRequest, PrivateThis.OnSessionSettleResponse);
             MessageHandler.HandleMessageType<SessionUpdate, bool>(PrivateThis.OnSessionUpdateRequest, PrivateThis.OnSessionUpdateResponse);
             MessageHandler.HandleMessageType<SessionExtend, bool>(PrivateThis.OnSessionExtendRequest, PrivateThis.OnSessionExtendResponse);
-            MessageHandler.HandleMessageType<SessionDelete, bool>(PrivateThis.OnSessionDeleteRequest, null);
+	        MessageHandler.HandleMessageType<SessionDelete, bool>(PrivateThis.OnSessionDeleteRequest, null);
             MessageHandler.HandleMessageType<SessionPing, bool>(PrivateThis.OnSessionPingRequest, PrivateThis.OnSessionPingResponse);
         }
 
@@ -530,12 +530,17 @@ namespace WalletConnectSharp.Sign
             
 		    IsInitialized();
 		    await PrivateThis.IsValidRequest(topic, request, defaultChainId);
-		    
-		    var id = await MessageHandler.SendRequest<SessionRequest<T>, TR>(topic, new SessionRequest<T>()
+
+		    var sessionRequest = new SessionRequest<T>()
 		    {
-			    ChainId = chainId,
-			    Request = request
-		    });
+			    ChainId = chainId, Request = request
+		    };
+		    
+		    var sessionRequestPayload = new JsonRpcRequest<SessionRequest<T>>(method, sessionRequest);
+		    
+		    var id = await MessageHandler.SendRequest<SessionRequest<T>, TR>(topic, sessionRequest);
+
+		    await ((IEnginePrivate)this).OnSessionRequest<T, TR>(topic, sessionRequestPayload);
             
 		    var taskSource = new TaskCompletionSource<TR>();
 
