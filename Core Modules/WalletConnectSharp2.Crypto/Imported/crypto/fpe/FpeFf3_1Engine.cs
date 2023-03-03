@@ -1,11 +1,11 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Fpe
+namespace Org.WalletConnect2.Crypto.Fpe
 {
     public class FpeFf3_1Engine
         : FpeEngine

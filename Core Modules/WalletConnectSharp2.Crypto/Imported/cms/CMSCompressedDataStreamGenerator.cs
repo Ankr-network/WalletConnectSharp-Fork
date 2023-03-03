@@ -4,7 +4,7 @@ using System.IO;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto.IO;
+using Org.WalletConnect2.Crypto.IO;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO;
 

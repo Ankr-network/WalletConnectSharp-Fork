@@ -1,11 +1,11 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
     /**
      * Generator for Pbe derived keys and ivs as defined by Pkcs 12 V1.0.

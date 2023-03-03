@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Fpe
+namespace Org.WalletConnect2.Crypto.Fpe
 {
     /// <summary>Base class for format-preserving encryption.</summary>
     public abstract class FpeEngine

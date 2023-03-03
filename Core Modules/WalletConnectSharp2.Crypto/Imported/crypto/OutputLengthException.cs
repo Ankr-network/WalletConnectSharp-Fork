@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     [Serializable]
     public class OutputLengthException

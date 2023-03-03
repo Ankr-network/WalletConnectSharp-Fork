@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 
 namespace Org.BouncyCastle.Math.Raw
 {

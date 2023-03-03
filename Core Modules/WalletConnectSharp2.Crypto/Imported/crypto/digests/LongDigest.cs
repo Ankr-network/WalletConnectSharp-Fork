@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     /**
     * Base class for SHA-384 and SHA-512.

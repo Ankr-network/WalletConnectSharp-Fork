@@ -3,7 +3,7 @@ using System;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Paddings
+namespace Org.WalletConnect2.Crypto.Paddings
 {
     /**
     * A padder that adds X9.23 padding to a block - if a SecureRandom is

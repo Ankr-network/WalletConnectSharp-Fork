@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto.Modes.Gcm
+namespace Org.WalletConnect2.Crypto.Modes.Gcm
 {
 	public interface IGcmMultiplier
 	{

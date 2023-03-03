@@ -1,11 +1,11 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Signers
+namespace Org.WalletConnect2.Crypto.Signers
 {
 	/// <summary> RSA-PSS as described in Pkcs# 1 v 2.1.
 	/// <p>

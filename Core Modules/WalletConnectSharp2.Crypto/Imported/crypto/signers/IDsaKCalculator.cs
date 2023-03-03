@@ -3,7 +3,7 @@
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Signers
+namespace Org.WalletConnect2.Crypto.Signers
 {
     /**
      * Interface define calculators of K values for DSA/ECDSA.

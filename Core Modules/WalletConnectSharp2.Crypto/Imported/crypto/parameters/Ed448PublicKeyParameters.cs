@@ -5,7 +5,7 @@ using Org.BouncyCastle.Math.EC.Rfc8032;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public sealed class Ed448PublicKeyParameters
         : AsymmetricKeyParameter

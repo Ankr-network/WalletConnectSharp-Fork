@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Crypto.Modes.Gcm;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Modes.Gcm;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO;
 
-namespace Org.BouncyCastle.Crypto.Modes
+namespace Org.WalletConnect2.Crypto.Modes
 {
     /**
      * GCM-SIV Mode.

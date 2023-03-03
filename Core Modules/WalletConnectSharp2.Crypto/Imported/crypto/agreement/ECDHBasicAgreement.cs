@@ -2,10 +2,10 @@ using System;
 
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Agreement
+namespace Org.WalletConnect2.Crypto.Agreement
 {
     /**
      * P1363 7.2.1 ECSVDP-DH

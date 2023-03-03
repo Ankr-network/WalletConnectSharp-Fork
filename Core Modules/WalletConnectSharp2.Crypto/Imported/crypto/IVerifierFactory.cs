@@ -1,4 +1,4 @@
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /// <summary>
     /// Base interface for operators that serve as stream-based signature verifiers.

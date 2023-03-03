@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     /**
      * FIPS 180-4 implementation of SHA-512/t

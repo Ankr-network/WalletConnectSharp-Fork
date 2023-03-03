@@ -8,7 +8,7 @@ using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.TeleTrust;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Asn1.X9;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Security;
 
 namespace Org.BouncyCastle.X509

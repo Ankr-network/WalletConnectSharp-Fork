@@ -11,8 +11,8 @@ using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Rosstandart;
 using Org.BouncyCastle.Asn1.TeleTrust;
 using Org.BouncyCastle.Asn1.UA;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Digests;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Digests;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 

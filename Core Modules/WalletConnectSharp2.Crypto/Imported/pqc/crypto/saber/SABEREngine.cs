@@ -1,7 +1,7 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Digests;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Digests;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 

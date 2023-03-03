@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Engines
+namespace Org.WalletConnect2.Crypto.Engines
 {
 	/**
 	* Camellia - based on RFC 3713, smaller implementation, about half the size of CamelliaEngine.

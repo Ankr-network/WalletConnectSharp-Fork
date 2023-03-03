@@ -1,10 +1,10 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Encoders;
 
-namespace Org.BouncyCastle.Crypto.Engines
+namespace Org.WalletConnect2.Crypto.Engines
 {
     /**
      * RFC 5794.

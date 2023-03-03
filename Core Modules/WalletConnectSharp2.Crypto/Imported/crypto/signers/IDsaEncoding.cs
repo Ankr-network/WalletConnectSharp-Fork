@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Signers
+namespace Org.WalletConnect2.Crypto.Signers
 {
     /// <summary>
     /// An interface for different encoding formats for DSA signatures.

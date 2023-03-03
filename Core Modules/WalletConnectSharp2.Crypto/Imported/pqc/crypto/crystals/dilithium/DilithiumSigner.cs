@@ -1,5 +1,5 @@
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Crystals.Dilithium

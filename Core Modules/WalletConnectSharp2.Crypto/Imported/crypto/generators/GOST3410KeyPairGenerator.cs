@@ -1,12 +1,12 @@
 using System;
 
 using Org.BouncyCastle.Asn1.CryptoPro;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC.Multiplier;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
     /**
      * a GOST3410 key pair generator.

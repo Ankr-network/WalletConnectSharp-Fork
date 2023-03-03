@@ -1,8 +1,8 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	public class BufferedStreamCipher
 		: BufferedCipherBase

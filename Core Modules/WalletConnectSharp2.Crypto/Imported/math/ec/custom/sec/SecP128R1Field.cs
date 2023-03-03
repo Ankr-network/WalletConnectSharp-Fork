@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Math.Raw;
 using Org.BouncyCastle.Security;
 

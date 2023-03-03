@@ -1,8 +1,8 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
 	public class VmpcMac
 		: IMac

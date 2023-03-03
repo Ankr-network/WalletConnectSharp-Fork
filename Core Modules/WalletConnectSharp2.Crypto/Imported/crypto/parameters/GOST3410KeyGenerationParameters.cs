@@ -4,7 +4,7 @@ using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 	public class Gost3410KeyGenerationParameters
 		: KeyGenerationParameters

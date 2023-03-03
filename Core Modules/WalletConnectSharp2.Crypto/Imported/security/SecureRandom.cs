@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Prng;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Prng;
+using Org.WalletConnect2.Crypto.Utilities;
 
 namespace Org.BouncyCastle.Security
 {

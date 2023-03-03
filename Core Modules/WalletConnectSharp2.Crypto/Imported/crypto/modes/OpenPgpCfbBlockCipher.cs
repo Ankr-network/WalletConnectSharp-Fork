@@ -1,8 +1,8 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Modes
+namespace Org.WalletConnect2.Crypto.Modes
 {
     /**
     * Implements OpenPGP's rather strange version of Cipher-FeedBack (CFB) mode

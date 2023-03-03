@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
 	/// <remarks>Generic interface for objects generating random bytes.</remarks>
 	public interface IRandomGenerator

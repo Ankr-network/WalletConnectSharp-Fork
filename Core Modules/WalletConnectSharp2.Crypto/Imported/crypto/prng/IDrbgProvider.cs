@@ -1,8 +1,8 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Prng.Drbg;
+using Org.WalletConnect2.Crypto.Prng.Drbg;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
     internal interface IDrbgProvider
     {

@@ -14,7 +14,7 @@ using Org.BouncyCastle.Math.EC.Multiplier;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Encoders;
 
-namespace Org.BouncyCastle.Crypto.EC
+namespace Org.WalletConnect2.Crypto.EC
 {
     /// <summary>Elliptic curve registry for various customized curve implementations.</summary>
     public static class CustomNamedCurves

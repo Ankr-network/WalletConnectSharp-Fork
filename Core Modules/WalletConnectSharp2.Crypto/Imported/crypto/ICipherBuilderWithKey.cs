@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /// <summary>
     /// A cipher builder that can also return the key it was initialized with.

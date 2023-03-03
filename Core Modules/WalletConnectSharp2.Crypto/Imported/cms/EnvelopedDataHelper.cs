@@ -1,9 +1,9 @@
 ﻿
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Security;
 
 namespace Org.BouncyCastle.Cms

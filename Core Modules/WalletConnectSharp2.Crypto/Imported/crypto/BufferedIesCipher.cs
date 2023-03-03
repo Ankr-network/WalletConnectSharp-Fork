@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Engines;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	public class BufferedIesCipher
 		: BufferedCipherBase

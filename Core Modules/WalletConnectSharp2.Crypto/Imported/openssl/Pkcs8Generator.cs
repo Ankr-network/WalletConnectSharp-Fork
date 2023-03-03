@@ -1,7 +1,7 @@
 using System;
 
 using Org.BouncyCastle.Asn1.Pkcs;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Pkcs;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.IO.Pem;

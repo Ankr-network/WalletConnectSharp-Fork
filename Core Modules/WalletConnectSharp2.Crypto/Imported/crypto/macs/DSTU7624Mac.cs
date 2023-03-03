@@ -1,10 +1,10 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
     /**
      * implementation of DSTU 7624 MAC

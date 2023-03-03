@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto.Engines
+namespace Org.WalletConnect2.Crypto.Engines
 {
 	public class VmpcKsa3Engine
 		: VmpcEngine

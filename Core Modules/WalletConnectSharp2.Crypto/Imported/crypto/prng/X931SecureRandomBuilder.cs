@@ -1,11 +1,11 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Date;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
     public class X931SecureRandomBuilder
     {

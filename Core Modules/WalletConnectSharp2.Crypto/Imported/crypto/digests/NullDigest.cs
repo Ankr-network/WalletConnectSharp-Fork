@@ -3,7 +3,7 @@ using System.IO;
 
 using Org.BouncyCastle.Utilities.IO;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
 	public class NullDigest : IDigest
 	{

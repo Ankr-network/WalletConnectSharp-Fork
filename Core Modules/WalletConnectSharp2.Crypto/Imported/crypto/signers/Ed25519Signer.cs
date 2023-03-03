@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math.EC.Rfc8032;
 
-namespace Org.BouncyCastle.Crypto.Signers
+namespace Org.WalletConnect2.Crypto.Signers
 {
     public class Ed25519Signer
         : ISigner

@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     public interface IRsa
     {

@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Asn1;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Kdf
+namespace Org.WalletConnect2.Crypto.Agreement.Kdf
 {
 	public class DHKdfParameters
 		: IDerivationParameters

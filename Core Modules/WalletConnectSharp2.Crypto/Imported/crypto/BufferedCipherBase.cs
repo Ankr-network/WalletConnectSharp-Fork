@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	public abstract class BufferedCipherBase
 		: IBufferedCipher

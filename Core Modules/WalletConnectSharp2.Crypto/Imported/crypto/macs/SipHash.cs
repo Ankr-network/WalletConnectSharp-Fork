@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
     /// <summary>
     /// Implementation of SipHash as specified in "SipHash: a fast short-input PRF", by Jean-Philippe

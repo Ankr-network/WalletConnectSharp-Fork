@@ -2,9 +2,9 @@ using System;
 
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Generators;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Generators;
+using Org.WalletConnect2.Crypto.Parameters;
 
 namespace Org.BouncyCastle.Cms
 {

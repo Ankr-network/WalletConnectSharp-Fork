@@ -5,7 +5,7 @@ using System.Buffers.Binary;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace Org.BouncyCastle.Crypto.Utilities
+namespace Org.WalletConnect2.Crypto.Utilities
 {
     internal static class Pack
     {

@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Srp
+namespace Org.WalletConnect2.Crypto.Agreement.Srp
 {
 	/**
 	 * Generates new SRP verifier for user

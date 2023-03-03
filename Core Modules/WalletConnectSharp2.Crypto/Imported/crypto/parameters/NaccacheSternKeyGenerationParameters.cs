@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 	/**
 	 * Parameters for NaccacheStern public private key generation. For details on

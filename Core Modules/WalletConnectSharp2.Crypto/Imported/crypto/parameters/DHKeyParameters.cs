@@ -4,7 +4,7 @@ using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public class DHKeyParameters
 		: AsymmetricKeyParameter

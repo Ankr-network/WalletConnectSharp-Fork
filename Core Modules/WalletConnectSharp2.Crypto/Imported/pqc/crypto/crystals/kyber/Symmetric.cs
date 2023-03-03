@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Parameters;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Crystals.Kyber
 {

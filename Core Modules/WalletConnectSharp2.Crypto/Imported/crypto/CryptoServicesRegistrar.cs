@@ -1,6 +1,6 @@
 ﻿using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     public static class CryptoServicesRegistrar
     {

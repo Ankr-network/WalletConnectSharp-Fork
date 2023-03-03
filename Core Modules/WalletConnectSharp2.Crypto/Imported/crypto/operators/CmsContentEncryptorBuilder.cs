@@ -5,8 +5,8 @@ using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Ntt;
 using Org.BouncyCastle.Cms;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Operators;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Operators;
 
 namespace Org.BouncyCastle.Operators
 {

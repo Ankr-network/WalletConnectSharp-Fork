@@ -1,11 +1,11 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Paddings;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Paddings;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
 	/**
 	* DES based CBC Block Cipher MAC according to ISO9797, algorithm 3 (ANSI X9.19 Retail MAC)

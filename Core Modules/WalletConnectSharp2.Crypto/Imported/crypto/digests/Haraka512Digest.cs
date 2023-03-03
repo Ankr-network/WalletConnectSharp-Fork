@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     public sealed class Haraka512Digest
         : HarakaBase

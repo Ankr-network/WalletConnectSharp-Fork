@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Agreement.JPake
+namespace Org.WalletConnect2.Crypto.Agreement.JPake
 {
     /// <summary>
     /// The payload sent/received during the optional third round of a J-PAKE exchange,
@@ -28,7 +28,7 @@ namespace Org.BouncyCastle.Crypto.Agreement.JPake
         /// <summary>
         /// The value of MacTag, as computed by round 3.
         /// 
-        /// See JPAKEUtil#calculateMacTag(string, string, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, org.bouncycastle.crypto.Digest)
+        /// See JPAKEUtil#calculateMacTag(string, string, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, Org.WalletConnect2.Crypto.Digest)
         /// </summary>
         private readonly BigInteger macTag;
 

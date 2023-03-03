@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Prng.Drbg
+namespace Org.WalletConnect2.Crypto.Prng.Drbg
 {
 	internal class DrbgUtilities
 	{

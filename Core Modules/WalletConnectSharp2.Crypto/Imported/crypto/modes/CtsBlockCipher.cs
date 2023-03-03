@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Org.BouncyCastle.Crypto.Modes
+namespace Org.WalletConnect2.Crypto.Modes
 {
     /**
     * A Cipher Text Stealing (CTS) mode cipher. CTS allows block ciphers to

@@ -1,4 +1,4 @@
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
 	/**
 	 * KFD1 generator for derived keys and ivs as defined by IEEE P1363a/ISO 18033

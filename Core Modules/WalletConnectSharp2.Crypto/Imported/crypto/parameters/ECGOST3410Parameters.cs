@@ -4,7 +4,7 @@ using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public class ECGost3410Parameters
         : ECNamedDomainParameters

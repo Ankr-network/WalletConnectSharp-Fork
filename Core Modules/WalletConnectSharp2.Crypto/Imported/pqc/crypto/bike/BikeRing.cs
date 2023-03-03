@@ -9,8 +9,8 @@ using System.Runtime.Intrinsics;
 using System.Runtime.Intrinsics.X86;
 #endif
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Math.Raw;
 using Org.BouncyCastle.Utilities;
 

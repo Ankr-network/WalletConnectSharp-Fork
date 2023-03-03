@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
     public class DefaultVerifierResult
         : IVerifier

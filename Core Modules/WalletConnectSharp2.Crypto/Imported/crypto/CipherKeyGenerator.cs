@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	/**
 	 * The base class for symmetric, or secret, cipher key generators.

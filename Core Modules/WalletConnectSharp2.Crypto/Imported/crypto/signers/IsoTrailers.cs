@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Org.BouncyCastle.Crypto.Signers
+namespace Org.WalletConnect2.Crypto.Signers
 {
     public class IsoTrailers
     {

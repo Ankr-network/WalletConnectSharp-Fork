@@ -1,5 +1,5 @@
 ﻿using System;
-using Org.BouncyCastle.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Digests;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 

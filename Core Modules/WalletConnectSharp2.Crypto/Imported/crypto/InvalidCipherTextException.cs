@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	 /// <summary>This exception is thrown whenever we find something we don't expect in a message.</summary>
     [Serializable]

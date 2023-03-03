@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Text;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Macs;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Macs;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Agreement.JPake
+namespace Org.WalletConnect2.Crypto.Agreement.JPake
 {
     /// <summary>
     /// Primitives needed for a J-PAKE exchange.

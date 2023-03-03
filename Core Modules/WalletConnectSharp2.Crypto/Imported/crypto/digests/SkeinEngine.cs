@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
 
     /// <summary>
     /// Implementation of the Skein family of parameterised hash functions in 256, 512 and 1024 bit block
-    /// sizes, based on the <see cref="Org.BouncyCastle.Crypto.Engines.ThreefishEngine">Threefish</see> tweakable block cipher.
+    /// sizes, based on the <see cref="Org.WalletConnect2.Crypto.Engines.ThreefishEngine">Threefish</see> tweakable block cipher.
     /// </summary>
     /// <remarks>
     /// This is the 1.3 version of Skein defined in the Skein hash function submission to the NIST SHA-3
@@ -21,9 +21,9 @@ namespace Org.BouncyCastle.Crypto.Digests
     /// Skein was designed by Niels Ferguson - Stefan Lucks - Bruce Schneier - Doug Whiting - Mihir
     /// Bellare - Tadayoshi Kohno - Jon Callas - Jesse Walker.
     /// <p/>
-    /// This implementation is the basis for <see cref="Org.BouncyCastle.Crypto.Digests.SkeinDigest"/> and <see cref="Org.BouncyCastle.Crypto.Macs.SkeinMac"/>, implementing the
+    /// This implementation is the basis for <see cref="Org.WalletConnect2.Crypto.Digests.SkeinDigest"/> and <see cref="Org.WalletConnect2.Crypto.Macs.SkeinMac"/>, implementing the
     /// parameter based configuration system that allows Skein to be adapted to multiple applications. <br/>
-    /// Initialising the engine with <see cref="Org.BouncyCastle.Crypto.Parameters.SkeinParameters"/> allows standard and arbitrary parameters to
+    /// Initialising the engine with <see cref="Org.WalletConnect2.Crypto.Parameters.SkeinParameters"/> allows standard and arbitrary parameters to
     /// be applied during the Skein hash function.
     /// <p/>
     /// Implemented:
@@ -41,7 +41,7 @@ namespace Org.BouncyCastle.Crypto.Digests
     /// <li>Tree hashing.</li>
     /// </ul>
     /// </remarks>
-    /// <seealso cref="Org.BouncyCastle.Crypto.Parameters.SkeinParameters"/>
+    /// <seealso cref="Org.WalletConnect2.Crypto.Parameters.SkeinParameters"/>
     public class SkeinEngine
         : IMemoable
     {
@@ -615,7 +615,7 @@ namespace Org.BouncyCastle.Crypto.Digests
         }
 
         /// <summary>
-        /// Initialises the Skein engine with the provided parameters. See <see cref="Org.BouncyCastle.Crypto.Parameters.SkeinParameters"/> for
+        /// Initialises the Skein engine with the provided parameters. See <see cref="Org.WalletConnect2.Crypto.Parameters.SkeinParameters"/> for
         /// details on the parameterisation of the Skein hash function.
         /// </summary>
         /// <param name="parameters">the parameters to apply to this engine, or <code>null</code> to use no parameters.</param>

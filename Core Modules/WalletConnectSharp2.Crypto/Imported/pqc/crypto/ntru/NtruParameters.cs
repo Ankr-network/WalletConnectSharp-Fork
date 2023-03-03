@@ -1,4 +1,4 @@
-﻿using Org.BouncyCastle.Crypto;
+﻿using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Pqc.Crypto.Ntru.ParameterSets;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Ntru

@@ -1,10 +1,10 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities.Encoders;
 
-namespace Org.BouncyCastle.Crypto.Agreement
+namespace Org.WalletConnect2.Crypto.Agreement
 {
     /// <summary>Standard Diffie-Hellman groups from various IETF specifications.</summary>
     public class DHStandardGroups

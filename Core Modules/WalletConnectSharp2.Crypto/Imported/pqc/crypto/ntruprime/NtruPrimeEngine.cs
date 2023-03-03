@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Parameters;
 
 namespace Org.BouncyCastle.Pqc.Crypto.NtruPrime
 {

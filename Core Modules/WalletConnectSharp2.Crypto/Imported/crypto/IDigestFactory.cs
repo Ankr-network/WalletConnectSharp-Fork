@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /// <summary>
     /// Base interface for operator factories that create stream-based digest calculators.

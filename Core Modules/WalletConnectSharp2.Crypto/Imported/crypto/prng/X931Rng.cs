@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
     internal class X931Rng
     {

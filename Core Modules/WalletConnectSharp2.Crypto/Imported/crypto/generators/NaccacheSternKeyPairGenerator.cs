@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
 	/**
 	 * Key generation parameters for NaccacheStern cipher. For details on this cipher, please see
@@ -31,7 +31,7 @@ namespace Org.BouncyCastle.Crypto.Generators
 		/*
 		 * (non-Javadoc)
 		 *
-		 * @see org.bouncycastle.crypto.AsymmetricCipherKeyPairGenerator#init(org.bouncycastle.crypto.KeyGenerationParameters)
+		 * @see Org.WalletConnect2.Crypto.AsymmetricCipherKeyPairGenerator#init(Org.WalletConnect2.Crypto.KeyGenerationParameters)
 		 */
 		public void Init(KeyGenerationParameters parameters)
 		{
@@ -41,7 +41,7 @@ namespace Org.BouncyCastle.Crypto.Generators
 		/*
 		 * (non-Javadoc)
 		 *
-		 * @see org.bouncycastle.crypto.AsymmetricCipherKeyPairGenerator#generateKeyPair()
+		 * @see Org.WalletConnect2.Crypto.AsymmetricCipherKeyPairGenerator#generateKeyPair()
 		 */
 		public AsymmetricCipherKeyPair GenerateKeyPair()
 		{

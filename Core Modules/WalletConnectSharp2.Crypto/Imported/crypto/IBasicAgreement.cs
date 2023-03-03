@@ -1,7 +1,7 @@
 using System;
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /**
      * The basic interface that basic Diffie-Hellman implementations

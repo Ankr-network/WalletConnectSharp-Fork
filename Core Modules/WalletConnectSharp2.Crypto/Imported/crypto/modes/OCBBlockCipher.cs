@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Modes
+namespace Org.WalletConnect2.Crypto.Modes
 {
     /// <summary>An implementation of <a href="https://tools.ietf.org/html/rfc7253">RFC 7253 on The OCB
     /// Authenticated-Encryption Algorithm</a>.</summary>

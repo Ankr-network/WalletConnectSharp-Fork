@@ -1,7 +1,7 @@
 using System;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     /**
      * parameters for using an integrated cipher in stream mode.

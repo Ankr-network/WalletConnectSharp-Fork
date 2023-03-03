@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 	/**
 	 * Private key parameters for NaccacheStern cipher. For details on this cipher,

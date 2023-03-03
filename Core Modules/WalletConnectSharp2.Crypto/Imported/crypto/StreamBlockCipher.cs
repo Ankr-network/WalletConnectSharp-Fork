@@ -1,8 +1,8 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Modes;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	/**
 	 * a wrapper for block ciphers with a single byte block size, so that they

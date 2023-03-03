@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;

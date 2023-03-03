@@ -1,8 +1,8 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     public abstract class AsymmetricKeyParameter
 		: ICipherParameters

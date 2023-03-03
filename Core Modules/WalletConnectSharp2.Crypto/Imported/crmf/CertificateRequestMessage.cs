@@ -2,8 +2,8 @@
 
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Crmf;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Operators;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Operators;
 
 namespace Org.BouncyCastle.Crmf
 {

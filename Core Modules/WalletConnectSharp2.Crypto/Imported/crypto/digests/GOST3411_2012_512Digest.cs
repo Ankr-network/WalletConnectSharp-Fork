@@ -1,7 +1,7 @@
 ﻿using System;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     public class Gost3411_2012_512Digest:Gost3411_2012Digest
     {

@@ -1,7 +1,7 @@
 using System;
 
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
 namespace Org.BouncyCastle.Crmf
 {

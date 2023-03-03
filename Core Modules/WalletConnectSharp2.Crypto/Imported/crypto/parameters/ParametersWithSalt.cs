@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 
     /// <summary> Cipher parameters with a fixed salt value associated with them.</summary>

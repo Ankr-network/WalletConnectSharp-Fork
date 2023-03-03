@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Utilities.IO;
 
-namespace Org.BouncyCastle.Crypto.IO
+namespace Org.WalletConnect2.Crypto.IO
 {
     public sealed class MacSink
         : BaseOutputStream

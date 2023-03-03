@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Paddings
+namespace Org.WalletConnect2.Crypto.Paddings
 {
 	/**
 	 * A padder that adds the padding according to the scheme referenced in

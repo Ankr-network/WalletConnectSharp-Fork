@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Math.EC;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     /// <summary>Public parameters for an SM2 key exchange.</summary>
     /// <remarks>In this case the ephemeralPublicKey provides the random point used in the algorithm.</remarks>

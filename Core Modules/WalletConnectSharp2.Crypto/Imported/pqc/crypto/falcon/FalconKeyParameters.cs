@@ -1,4 +1,4 @@
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Falcon
 {

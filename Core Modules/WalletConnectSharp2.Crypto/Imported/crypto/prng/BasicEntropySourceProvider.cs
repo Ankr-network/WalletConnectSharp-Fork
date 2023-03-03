@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
     /**
      * An EntropySourceProvider where entropy generation is based on a SecureRandom output using SecureRandom.generateSeed().

@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Paddings
+namespace Org.WalletConnect2.Crypto.Paddings
 {
 
     /// <summary> A padder that adds Null byte padding to a block.</summary>

@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /// <summary>The base interface for implementations of message authentication codes (MACs).</summary>
     public interface IMac

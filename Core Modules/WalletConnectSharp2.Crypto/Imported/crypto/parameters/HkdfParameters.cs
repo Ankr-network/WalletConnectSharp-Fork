@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Macs;
+using Org.WalletConnect2.Crypto.Macs;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     /**
      * Parameter class for the HkdfBytesGenerator class.

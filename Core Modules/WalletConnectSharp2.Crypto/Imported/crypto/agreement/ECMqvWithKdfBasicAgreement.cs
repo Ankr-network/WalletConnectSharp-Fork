@@ -2,11 +2,11 @@ using System;
 
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X9;
-using Org.BouncyCastle.Crypto.Agreement.Kdf;
+using Org.WalletConnect2.Crypto.Agreement.Kdf;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Agreement
+namespace Org.WalletConnect2.Crypto.Agreement
 {
 	public class ECMqvWithKdfBasicAgreement
 		: ECMqvBasicAgreement

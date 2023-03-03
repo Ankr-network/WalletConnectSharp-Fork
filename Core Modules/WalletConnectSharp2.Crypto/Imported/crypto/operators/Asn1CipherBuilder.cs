@@ -4,12 +4,12 @@ using System.IO;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Cms;
-using Org.BouncyCastle.Crypto.IO;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.IO;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
     public class Asn1CipherBuilderWithKey : ICipherBuilderWithKey
     {

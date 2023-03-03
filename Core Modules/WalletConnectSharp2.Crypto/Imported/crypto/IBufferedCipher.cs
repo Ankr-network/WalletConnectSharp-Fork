@@ -1,6 +1,6 @@
 using System;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	/// <remarks>Block cipher engines are expected to conform to this interface.</remarks>
     public interface IBufferedCipher

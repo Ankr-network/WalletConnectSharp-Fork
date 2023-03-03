@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Kdf
+namespace Org.WalletConnect2.Crypto.Agreement.Kdf
 {
     /// <summary>Generator for Concatenation Key Derivation Function defined in NIST SP 800-56A, Sect 5.8.1</summary>
     public sealed class ConcatenationKdfGenerator

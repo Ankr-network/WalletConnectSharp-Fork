@@ -8,7 +8,7 @@ using System.Numerics;
 using System.Runtime.Serialization;
 using System.Text;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 

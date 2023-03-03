@@ -1,6 +1,6 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
 namespace Org.BouncyCastle.Tls.Crypto.Impl.BC
 {

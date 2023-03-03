@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Prng
+namespace Org.WalletConnect2.Crypto.Prng
 {
     public class X931SecureRandom
         :   SecureRandom

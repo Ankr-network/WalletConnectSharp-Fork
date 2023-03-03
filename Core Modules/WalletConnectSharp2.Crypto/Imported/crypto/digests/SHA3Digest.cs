@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     /// <summary>
     /// Implementation of SHA-3 based on following KeccakNISTInterface.c from http://keccak.noekeon.org/

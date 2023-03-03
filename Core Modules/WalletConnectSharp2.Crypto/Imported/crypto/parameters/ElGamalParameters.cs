@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public class ElGamalParameters
 		: ICipherParameters

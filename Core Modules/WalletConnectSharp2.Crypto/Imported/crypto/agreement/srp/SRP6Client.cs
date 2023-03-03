@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Srp
+namespace Org.WalletConnect2.Crypto.Agreement.Srp
 {
 	/**
 	 * Implements the client side SRP-6a protocol. Note that this class is stateful, and therefore NOT threadsafe.

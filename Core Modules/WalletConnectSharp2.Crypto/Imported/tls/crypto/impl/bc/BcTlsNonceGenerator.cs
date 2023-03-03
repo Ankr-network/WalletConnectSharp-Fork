@@ -1,6 +1,6 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Prng;
+using Org.WalletConnect2.Crypto.Prng;
 
 namespace Org.BouncyCastle.Tls.Crypto.Impl.BC
 {

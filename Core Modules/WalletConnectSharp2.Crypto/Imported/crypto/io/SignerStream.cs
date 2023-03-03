@@ -3,7 +3,7 @@ using System.IO;
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.IO
+namespace Org.WalletConnect2.Crypto.IO
 {
     public sealed class SignerStream
         : Stream

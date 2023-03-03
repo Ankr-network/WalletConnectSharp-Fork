@@ -3,10 +3,10 @@ using System.IO;
 
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto.IO;
+using Org.WalletConnect2.Crypto.IO;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
     public class Asn1DigestFactory
         : IDigestFactory

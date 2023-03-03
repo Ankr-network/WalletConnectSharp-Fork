@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Paddings;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Paddings;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
     /**
     * implements a Cipher-FeedBack (CFB) mode on top of a simple cipher.

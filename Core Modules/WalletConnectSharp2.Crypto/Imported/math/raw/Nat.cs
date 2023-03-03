@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Numerics;
 #endif
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 
 namespace Org.BouncyCastle.Math.Raw
 {

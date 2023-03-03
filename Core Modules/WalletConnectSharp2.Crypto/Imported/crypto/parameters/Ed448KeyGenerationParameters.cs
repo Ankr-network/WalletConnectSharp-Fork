@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public class Ed448KeyGenerationParameters
         : KeyGenerationParameters

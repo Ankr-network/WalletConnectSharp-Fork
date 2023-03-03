@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities.Encoders;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Picnic

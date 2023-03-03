@@ -6,7 +6,7 @@ using Org.BouncyCastle.Asn1.Crmf;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Cms;
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 
 namespace Org.BouncyCastle.Crmf
 {

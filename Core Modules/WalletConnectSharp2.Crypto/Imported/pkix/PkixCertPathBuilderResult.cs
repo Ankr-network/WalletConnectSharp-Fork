@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Pkix;
 
 namespace Org.BouncyCastle.Pkix

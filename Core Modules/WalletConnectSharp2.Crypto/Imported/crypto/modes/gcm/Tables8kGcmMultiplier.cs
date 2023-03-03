@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Modes.Gcm
+namespace Org.WalletConnect2.Crypto.Modes.Gcm
 {
     public class Tables8kGcmMultiplier
         : IGcmMultiplier

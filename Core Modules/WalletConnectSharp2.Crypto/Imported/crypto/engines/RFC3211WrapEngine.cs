@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Engines
+namespace Org.WalletConnect2.Crypto.Engines
 {
 	/**
 	 * an implementation of the RFC 3211 Key Wrap

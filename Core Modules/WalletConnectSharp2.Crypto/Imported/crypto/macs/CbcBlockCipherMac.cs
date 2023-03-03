@@ -1,9 +1,9 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Paddings;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Paddings;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
     /**
     * standard CBC Block Cipher MAC - if no padding is specified the default of

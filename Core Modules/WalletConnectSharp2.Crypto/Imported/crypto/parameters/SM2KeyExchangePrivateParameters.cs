@@ -3,7 +3,7 @@
 using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Math.EC.Multiplier;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     /// <summary>Private parameters for an SM2 key exchange.</summary>
     /// <remarks>The ephemeralPrivateKey is used to calculate the random point used in the algorithm.</remarks>

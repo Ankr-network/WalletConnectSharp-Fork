@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Fpe
+namespace Org.WalletConnect2.Crypto.Fpe
 {
     /*
 	 * SP800-38G Format-Preserving Encryption

@@ -1,9 +1,9 @@
 using System;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Encodings
+namespace Org.WalletConnect2.Crypto.Encodings
 {
 	/**
 	* ISO 9796-1 padding. Note in the light of recent results you should

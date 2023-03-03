@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Asn1.X509;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
     public class GenericKey
     {

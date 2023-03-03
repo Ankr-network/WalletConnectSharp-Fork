@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
 	/// <description>
 	/// Generator for PBE derived keys and IVs as usd by OpenSSL. Originally this scheme was a simple extension of

@@ -8,12 +8,12 @@ using Org.BouncyCastle.Asn1.Ntt;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Modes;
-using Org.BouncyCastle.Crypto.Paddings;
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Modes;
+using Org.WalletConnect2.Crypto.Paddings;
+using Org.WalletConnect2.Crypto.Parameters;
 
-namespace Org.BouncyCastle.Crypto.Utilities
+namespace Org.WalletConnect2.Crypto.Utilities
 {
     public class CipherFactory
     {

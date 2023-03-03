@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X9;
-using Org.BouncyCastle.Crypto.Generators;
+using Org.WalletConnect2.Crypto.Generators;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public abstract class ECKeyParameters
         : AsymmetricKeyParameter

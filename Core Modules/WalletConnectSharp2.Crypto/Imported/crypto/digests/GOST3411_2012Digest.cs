@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     public abstract class Gost3411_2012Digest
         : IDigest, IMemoable

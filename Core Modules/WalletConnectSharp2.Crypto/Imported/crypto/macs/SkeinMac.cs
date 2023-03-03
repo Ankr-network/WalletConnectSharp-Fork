@@ -1,16 +1,16 @@
 using System;
 
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Macs
+namespace Org.WalletConnect2.Crypto.Macs
 {
 
 	/// <summary>
 	/// Implementation of the Skein parameterised MAC function in 256, 512 and 1024 bit block sizes,
-	/// based on the <see cref="Org.BouncyCastle.Crypto.Engines.ThreefishEngine">Threefish</see> tweakable block cipher.
+	/// based on the <see cref="Org.WalletConnect2.Crypto.Engines.ThreefishEngine">Threefish</see> tweakable block cipher.
 	/// </summary>
 	/// <remarks>
 	/// This is the 1.3 version of Skein defined in the Skein hash function submission to the NIST SHA-3
@@ -19,8 +19,8 @@ namespace Org.BouncyCastle.Crypto.Macs
 	/// Skein was designed by Niels Ferguson - Stefan Lucks - Bruce Schneier - Doug Whiting - Mihir
 	/// Bellare - Tadayoshi Kohno - Jon Callas - Jesse Walker.
 	/// </remarks>
-	/// <seealso cref="Org.BouncyCastle.Crypto.Digests.SkeinEngine"/>
-	/// <seealso cref="Org.BouncyCastle.Crypto.Parameters.SkeinParameters"/>
+	/// <seealso cref="Org.WalletConnect2.Crypto.Digests.SkeinEngine"/>
+	/// <seealso cref="Org.WalletConnect2.Crypto.Parameters.SkeinParameters"/>
 	public class SkeinMac
 		: IMac
 	{
@@ -64,7 +64,7 @@ namespace Org.BouncyCastle.Crypto.Macs
 		/// <summary>
 		/// Optionally initialises the Skein digest with the provided parameters.
 		/// </summary>
-		/// See <see cref="Org.BouncyCastle.Crypto.Parameters.SkeinParameters"></see> for details on the parameterisation of the Skein hash function.
+		/// See <see cref="Org.WalletConnect2.Crypto.Parameters.SkeinParameters"></see> for details on the parameterisation of the Skein hash function.
 		/// <param name="parameters">the parameters to apply to this engine, or <code>null</code> to use no parameters.</param>
 		public void Init(ICipherParameters parameters)
 		{

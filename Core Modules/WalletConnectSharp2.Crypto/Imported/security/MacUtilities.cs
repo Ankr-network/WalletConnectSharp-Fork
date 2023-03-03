@@ -7,10 +7,10 @@ using Org.BouncyCastle.Asn1.Misc;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.Rosstandart;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto.Macs;
-using Org.BouncyCastle.Crypto.Paddings;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Macs;
+using Org.WalletConnect2.Crypto.Paddings;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 

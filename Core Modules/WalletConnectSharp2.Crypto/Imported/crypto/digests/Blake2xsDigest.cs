@@ -2,7 +2,7 @@
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Digests
+namespace Org.WalletConnect2.Crypto.Digests
 {
     /*
       The BLAKE2 cryptographic hash function was designed by Jean-

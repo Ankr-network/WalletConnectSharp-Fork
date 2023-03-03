@@ -6,12 +6,12 @@ using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto.Encodings;
-using Org.BouncyCastle.Crypto.Engines;
+using Org.WalletConnect2.Crypto.Encodings;
+using Org.WalletConnect2.Crypto.Engines;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
     public class Asn1KeyWrapper
         : IKeyWrapper

@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 	/**
 	 * Public key parameters for NaccacheStern cipher. For details on this cipher,

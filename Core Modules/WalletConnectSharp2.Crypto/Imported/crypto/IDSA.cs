@@ -2,7 +2,7 @@ using System;
 
 using Org.BouncyCastle.Math;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /// <summary>Interface for classes implementing the Digital Signature Algorithm</summary>
     public interface IDsa

@@ -1,6 +1,6 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 
 namespace Org.BouncyCastle.Pqc.Crypto.Crystals.Kyber
 {

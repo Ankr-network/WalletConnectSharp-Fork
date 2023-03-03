@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Org.BouncyCastle.Crypto.Modes.Gcm
+namespace Org.WalletConnect2.Crypto.Modes.Gcm
 {
     public class Tables1kGcmExponentiator
         : IGcmExponentiator

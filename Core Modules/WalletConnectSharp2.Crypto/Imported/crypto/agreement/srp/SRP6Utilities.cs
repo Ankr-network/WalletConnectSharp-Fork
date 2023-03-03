@@ -4,7 +4,7 @@ using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Srp
+namespace Org.WalletConnect2.Crypto.Agreement.Srp
 {
 	public class Srp6Utilities
 	{

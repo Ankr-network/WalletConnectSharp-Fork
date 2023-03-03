@@ -13,7 +13,7 @@ using Org.BouncyCastle.Asn1.X9;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Collections;
 
-namespace Org.BouncyCastle.Crypto.Operators
+namespace Org.WalletConnect2.Crypto.Operators
 {
 	internal class X509Utilities
 	{

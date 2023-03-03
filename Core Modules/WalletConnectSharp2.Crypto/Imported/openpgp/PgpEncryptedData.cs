@@ -2,8 +2,8 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.IO;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.IO;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO;

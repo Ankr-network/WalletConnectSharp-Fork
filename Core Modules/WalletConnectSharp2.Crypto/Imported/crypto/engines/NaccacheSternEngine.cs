@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Engines
+namespace Org.WalletConnect2.Crypto.Engines
 {
 	/**
 	* NaccacheStern Engine. For details on this cipher, please see
@@ -28,8 +28,8 @@ namespace Org.BouncyCastle.Crypto.Engines
 		/**
 		* Initializes this algorithm. Must be called before all other Functions.
 		*
-		* @see org.bouncycastle.crypto.AsymmetricBlockCipher#init(bool,
-		*      org.bouncycastle.crypto.CipherParameters)
+		* @see Org.WalletConnect2.Crypto.AsymmetricBlockCipher#init(bool,
+		*      Org.WalletConnect2.Crypto.CipherParameters)
 		*/
 		public virtual void Init(
 			bool				forEncryption,
@@ -72,7 +72,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 		/**
 		* Returns the input block size of this algorithm.
 		*
-		* @see org.bouncycastle.crypto.AsymmetricBlockCipher#GetInputBlockSize()
+		* @see Org.WalletConnect2.Crypto.AsymmetricBlockCipher#GetInputBlockSize()
 		*/
         public virtual int GetInputBlockSize()
 		{
@@ -92,7 +92,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 		/**
 		* Returns the output block size of this algorithm.
 		*
-		* @see org.bouncycastle.crypto.AsymmetricBlockCipher#GetOutputBlockSize()
+		* @see Org.WalletConnect2.Crypto.AsymmetricBlockCipher#GetOutputBlockSize()
 		*/
         public virtual int GetOutputBlockSize()
 		{
@@ -112,7 +112,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 		/**
 		* Process a single Block using the Naccache-Stern algorithm.
 		*
-		* @see org.bouncycastle.crypto.AsymmetricBlockCipher#ProcessBlock(byte[],
+		* @see Org.WalletConnect2.Crypto.AsymmetricBlockCipher#ProcessBlock(byte[],
 		*      int, int)
 		*/
         public virtual byte[] ProcessBlock(

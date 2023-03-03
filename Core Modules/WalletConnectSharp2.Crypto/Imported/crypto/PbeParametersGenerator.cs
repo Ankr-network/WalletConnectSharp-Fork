@@ -3,7 +3,7 @@ using System.Text;
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
     /**
      * super class for all Password Based Encyrption (Pbe) parameter generator classes.

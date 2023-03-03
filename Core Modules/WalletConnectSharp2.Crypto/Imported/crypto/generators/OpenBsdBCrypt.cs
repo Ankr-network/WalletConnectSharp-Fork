@@ -5,7 +5,7 @@ using System.Text;
 
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Generators
+namespace Org.WalletConnect2.Crypto.Generators
 {
     /**
      * Password hashing scheme BCrypt,

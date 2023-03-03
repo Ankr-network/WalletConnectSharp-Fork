@@ -1,7 +1,7 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Signers;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Signers;
 
 namespace Org.BouncyCastle.Tls.Crypto.Impl.BC
 {

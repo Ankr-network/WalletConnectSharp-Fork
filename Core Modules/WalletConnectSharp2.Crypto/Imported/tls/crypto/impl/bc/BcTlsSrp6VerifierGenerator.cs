@@ -1,6 +1,6 @@
 ﻿using System;
 
-using Org.BouncyCastle.Crypto.Agreement.Srp;
+using Org.WalletConnect2.Crypto.Agreement.Srp;
 using Org.BouncyCastle.Math;
 
 namespace Org.BouncyCastle.Tls.Crypto.Impl.BC

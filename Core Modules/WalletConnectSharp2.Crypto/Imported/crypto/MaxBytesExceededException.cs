@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Org.BouncyCastle.Crypto
+namespace Org.WalletConnect2.Crypto
 {
 	/// <summary>This exception is thrown whenever a cipher requires a change of key, IV or similar after x amount of
 	/// bytes enciphered.

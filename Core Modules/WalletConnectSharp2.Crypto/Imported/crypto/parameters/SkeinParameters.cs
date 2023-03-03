@@ -6,7 +6,7 @@ using System.IO;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
 
 	/// <summary>
@@ -26,9 +26,9 @@ namespace Org.BouncyCastle.Crypto.Parameters
 	/// <see cref="SkeinParameters.Builder.SetPersonalisation(byte[])">arbitrary</see> personalisation string.</li>
 	/// </ul>
 	/// </remarks>
-	/// <seealso cref="Org.BouncyCastle.Crypto.Digests.SkeinEngine"/>
-	/// <seealso cref="Org.BouncyCastle.Crypto.Digests.SkeinDigest"/>
-	/// <seealso cref="Org.BouncyCastle.Crypto.Macs.SkeinMac"/>
+	/// <seealso cref="Org.WalletConnect2.Crypto.Digests.SkeinEngine"/>
+	/// <seealso cref="Org.WalletConnect2.Crypto.Digests.SkeinDigest"/>
+	/// <seealso cref="Org.WalletConnect2.Crypto.Macs.SkeinMac"/>
 	public class SkeinParameters
 		: ICipherParameters
 	{

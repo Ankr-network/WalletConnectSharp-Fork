@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Merkator.BitCoin;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Agreement;
-using Org.BouncyCastle.Crypto.Digests;
-using Org.BouncyCastle.Crypto.Generators;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Crypto.Signers;
+using Org.WalletConnect2.Crypto;
+using Org.WalletConnect2.Crypto.Agreement;
+using Org.WalletConnect2.Crypto.Digests;
+using Org.WalletConnect2.Crypto.Generators;
+using Org.WalletConnect2.Crypto.Parameters;
+using Org.WalletConnect2.Crypto.Signers;
 using Org.BouncyCastle.Security;
 using WalletConnectSharp.Common.Model.Errors;
 using WalletConnectSharp.Common.Utils;
@@ -23,7 +23,7 @@ using WalletConnectSharp.Network;
 using WalletConnectSharp.Storage;
 using WalletConnectSharp.Storage.Interfaces;
 using ArgumentException = System.ArgumentException;
-using ChaCha20Poly1305 = Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305;
+using ChaCha20Poly1305 = Org.WalletConnect2.Crypto.Modes.ChaCha20Poly1305;
 
 namespace WalletConnectSharp.Crypto
 {

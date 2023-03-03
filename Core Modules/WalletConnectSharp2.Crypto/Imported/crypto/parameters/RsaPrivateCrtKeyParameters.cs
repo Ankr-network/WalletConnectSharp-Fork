@@ -1,10 +1,10 @@
 using System;
 
-using Org.BouncyCastle.Crypto;
+using Org.WalletConnect2.Crypto;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Asn1.Pkcs;
 
-namespace Org.BouncyCastle.Crypto.Parameters
+namespace Org.WalletConnect2.Crypto.Parameters
 {
     public class RsaPrivateCrtKeyParameters
         : RsaKeyParameters

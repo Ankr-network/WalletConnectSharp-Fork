@@ -6,10 +6,10 @@ using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Ntt;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
-using Org.BouncyCastle.Crypto.Generators;
+using Org.WalletConnect2.Crypto.Generators;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Utilities
+namespace Org.WalletConnect2.Crypto.Utilities
 {
     public static class CipherKeyGeneratorFactory
     {

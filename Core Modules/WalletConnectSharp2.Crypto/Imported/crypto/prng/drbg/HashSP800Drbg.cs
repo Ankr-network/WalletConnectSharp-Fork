@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 
-namespace Org.BouncyCastle.Crypto.Prng.Drbg
+namespace Org.WalletConnect2.Crypto.Prng.Drbg
 {
 	/**
 	 * A SP800-90A Hash DRBG.

@@ -1,11 +1,11 @@
 using System;
 
 using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Crypto.IO;
-using Org.BouncyCastle.Crypto.Utilities;
+using Org.WalletConnect2.Crypto.IO;
+using Org.WalletConnect2.Crypto.Utilities;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Agreement.Kdf
+namespace Org.WalletConnect2.Crypto.Agreement.Kdf
 {
     /**
     * RFC 2631 Diffie-hellman KEK derivation function.

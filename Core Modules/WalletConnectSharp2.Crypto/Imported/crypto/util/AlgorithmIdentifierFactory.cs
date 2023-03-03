@@ -10,7 +10,7 @@ using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security;
 
-namespace Org.BouncyCastle.Crypto.Utilities
+namespace Org.WalletConnect2.Crypto.Utilities
 {
     public class AlgorithmIdentifierFactory
     {
